@@ -1,0 +1,17 @@
+spring:
+    datasource:
+        url: jdbc:h2:mem:testdb
+        driver-class-name: org.h2.Driver
+        username: sa
+        # passwrod: '{cipher}e9c61315bba93885f1c7018ff021bd362dadacdd008aec16cde6eced61a1e379'
+        password: sa
+
+gateway:
+    ip: 172.18.0.5
+
+order_service:
+    url: http://ORDERSERVICE/order-service/%s/order
+    # MicroService name/ URI
+    # url: http://127.0.0.1:8080/order-service/%s/order
+    exception:
+        orders_is_empty: User's orders is empty.

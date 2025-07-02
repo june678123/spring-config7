@@ -1,0 +1,16 @@
+portOne:
+  store-identify-number: imp25405264
+  apikey: 4416268817481025
+  secretKey: gWOlbY5zAmRGWRXRr8yqaEBbGS0zRsXYdXQxsKMnGW75W9jtgrhxhv796mAtl2ombqo6cejbnmLroif4
+   
+
+    
+# spring:
+#     datasource:
+#         url: jdbc:h2:mem:testdb
+#         driver-class-name: org.h2.Driver
+#         username: sa
+#         password: 
+#     jpa:
+#         database-platform: org.hibernate.dialect.H2Dialect
+
