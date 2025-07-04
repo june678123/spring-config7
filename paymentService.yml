@@ -2,15 +2,14 @@ portOne:
   store-identify-number: imp25405264
   apikey: 4416268817481025
   secretKey: gWOlbY5zAmRGWRXRr8yqaEBbGS0zRsXYdXQxsKMnGW75W9jtgrhxhv796mAtl2ombqo6cejbnmLroif4
-   
 
-    
-# spring:
-#     datasource:
-#         url: jdbc:h2:mem:testdb
-#         driver-class-name: org.h2.Driver
-#         username: sa
-#         password: 
+
+spring:
+    datasource:
+        url: jdbc:mariadb://mydb2.c382ogcea5iw.us-east-1.rds.amazonaws.com
+        driver-class-name: org.mariadb.jdbc.Driver
+        username: root
+        password: 12312312
 #     jpa:
 #         database-platform: org.hibernate.dialect.H2Dialect
 
