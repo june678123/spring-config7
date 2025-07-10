@@ -6,7 +6,7 @@ portOne:
 
 spring:
     datasource:
-        url: jdbc:mariadb://mydb2.c382ogcea5iw.us-east-1.rds.amazonaws.com
+        url: jdbc:mariadb://mydb2.c382ogcea5iw.us-east-1.rds.amazonaws.com:3306/mydatabase
         driver-class-name: org.mariadb.jdbc.Driver
         username: root
         password: 12312312
